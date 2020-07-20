@@ -40,18 +40,28 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+        Express servers, and express routers. Both used to serve resources to clients through the internet.
+
 - [ ] Describe Middleware?
+
+        Middleware is a function that is placed in a queue and run inbetween receiving requests and sending out responses/ They can handle both requests and responses before the main router function handles them giving you a lot of control in what you can do.
 
 - [ ] Describe a Resource?
 
+        Is information, data, photos, webpages, anything you can think of to serve the client machine
+
 - [ ] What can the API return to help clients know if a request was successful?
+
+        Status codes, mainly 200 signifies that everything went alright
 
 - [ ] How can we partition our application into sub-applications?
 
+        using modules, we can export our functions in module.exports and require them in the main page
+
 ## Minimum Viable Product
 
-- [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
-- [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+- [.] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+- [.] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
